@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <button id="btn01">01</button>
+        <button id="btn02">02</button>
+        <button id="btn03">03</button>
+        <button id="btn04">04</button>
+        <button id="btn05">05</button>
+        <button id="btn06">06</button>
+        <button id="btn07">07</button>
+        <button id="btn08">08</button>
+    </header>
+
+    <div id="container-01" class="container">
+        <h2>Conversor de Algarismos Romanos</h2>
+        <form id="romanForm">
+            <label for="romanInput">Insira um número em algarismos romanos:</label>
+            <input type="text" id="romanInput" placeholder="">
+            <button type="button" id="convertButton">Converter</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    
+    <div id="container-02" class="container">
+        <h2>Descriptografador de Cifra de César</h2>
+        <form id="caesarForm">
+            <label for="textInput">Insira o texto criptografado:</label>
+            <input type="text" id="textInput" placeholder="">
+            <label for="shiftInput">Insira o número de deslocamento:</label>
+            <input type="number" id="shiftInput" placeholder="" min="1">
+            <button type="button" id="decryptButton">Descriptografar</button>
+        </form>
+        <p id="caesarResult"></p>
+    </div>
+    
+
+    <div id="container-03" class="container">
+        <h2>Inserir Palavra em Posições Específicas</h2>
+        <form id="insertForm">
+            <label for="phraseInput">Insira a frase:</label>
+            <input type="text" id="phraseInput" placeholder="">
+            
+            <label for="wordInput">Insira a palavra a ser inserida:</label>
+            <input type="text" id="wordInput" placeholder="">
+            
+            <label for="indexArrayInput">Insira os índices (separados por vírgula):</label>
+            <input type="text" id="indexArrayInput" placeholder="">
+            
+            <button type="button" id="insertButton">Inserir Palavra</button>
+        </form>
+        <p id="insertResult"></p>
+    </div>
+    
+
+    <div id="container-04" class="container">
+        <h2>Resolução de Equações de Segundo Grau</h2>
+        <form id="equationForm">
+            <label for="aInput">Coeficiente a:</label>
+            <input type="number" id="aInput" placeholder="Ex: 1" value="0">
+            
+            <label for="bInput">Coeficiente b:</label>
+            <input type="number" id="bInput" placeholder="Ex: -3" value="0">
+            
+            <label for="cInput">Coeficiente c:</label>
+            <input type="number" id="cInput" placeholder="Ex: 2" value="0">
+            
+            <button type="button" id="solveButton">Calcular Raízes</button>
+        </form>
+        <p id="equationResult"></p>
+    </div>
+    
+
+    <div id="container-05" class="container">
+        <h2>Persistência Multiplicativa</h2>
+        <form id="persistenceForm">
+            <label for="numberInput">Insira um número:</label>
+            <input type="number" id="numberInput" placeholder="Ex: 39">
+            <button type="button" id="calculateButton">Calcular Persistência</button>
+        </form>
+        <p id="persistenceResult"></p>
+    </div>
+    
+
+    <div id="container-06" class="container">
+        <h2>Geração de Senhas</h2>
+        <form id="passwordForm">
+            <label for="optionsInput">Digite opções (separadas por vírgula):</label>
+            <input type="text" id="optionsInput" placeholder="Ex: a,b,c">
+            <button type="button" id="generateButton">Gerar Senhas</button>
+        </form>
+        <p id="passwordResult"></p>
+    </div>
+    
+
+    <div id="container-07" class="container">
+        <h2>Coordenadas e Setores</h2>
+        <form id="coordinatesForm">
+            <label for="coordinatesInput">Digite três coordenadas (x, y, z):</label>
+            <input type="text" id="coordinatesInput" placeholder="Ex: 37,42,15">
+            <button type="button" id="determineSectorButton">Determinar Setor e Distância</button>
+        </form>
+        <p id="sectorResult"></p>
+        <p id="distanceResult"></p>
+    </div>
+    
+
+    <div id="container-08" class="container">
+        <h2>Verificador de Números Faltantes</h2>
+        <form id="missingNumbersForm">
+            <label for="numbersInput">Digite uma lista de números (ex: 0001, 0003, 0004):</label>
+            <input type="text" id="numbersInput" placeholder="Ex: 0001, 0003, 0004">
+            <button type="button" id="checkMissingButton">Verificar Números Faltantes</button>
+        </form>
+        <p id="missingNumbersResult"></p>
+    </div>
+    
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;  
+}
+
+header button{
+    width: 60px;
+}
+
+button{
+    cursor: pointer;
+}
+
+::placeholder{
+    opacity: 0;
+}
+
+.container {
+    display: none;
+}
+
+#container-01 {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#romanForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#romanInput {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#convertButton {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#convertButton:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#container-02 {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#caesarForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#textInput, #shiftInput {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#decryptButton {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#decryptButton:hover {
+    background-color: #45a049;
+}
+
+#caesarResult {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#container-03 {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#insertForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#phraseInput, #wordInput, #indexArrayInput {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#insertButton {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#insertButton:hover {
+    background-color: #45a049;
+}
+
+#insertResult {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#container-04 {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#equationForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#aInput, #bInput, #cInput {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#solveButton {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#solveButton:hover {
+    background-color: #45a049;
+}
+
+#equationResult {
+    margin-top: 15px;
+    font-weight: bold;
+    white-space: pre-line;
+}
+
+#container-05 {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#persistenceForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#numberInput {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#calculateButton {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#calculateButton:hover {
+    background-color: #45a049;
+}
+
+#persistenceResult {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#container-06 {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#passwordForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#optionsInput {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#generateButton {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#generateButton:hover {
+    background-color: #45a049;
+}
+
+#passwordResult {
+    margin-top: 15px;
+    font-weight: bold;
+    white-space: pre-line;
+}
+
+#container-07 {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#coordinatesForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#coordinatesInput {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#determineSectorButton {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#determineSectorButton:hover {
+    background-color: #45a049;
+}
+
+#sectorResult, #distanceResult {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#container-08 {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#missingNumbersForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#numbersInput {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#checkMissingButton {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#checkMissingButton:hover {
+    background-color: #45a049;
+}
+
+#missingNumbersResult {
+    margin-top: 15px;
+    font-weight: bold;
+}
